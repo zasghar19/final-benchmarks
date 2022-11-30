@@ -1,0 +1,11 @@
+(let ((x 1))
+(let ((x (+ x x)))
+(let ((y (+ x x)))
+(do
+(+ x x)
+(let ((x (left (pair x x)))) (pair x x))
+(let ((x 1)) (pair (+ x x) (pair x x)))
+)
+)
+)
+)
