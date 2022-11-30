@@ -1,0 +1,2 @@
+(define (f) (print 100))
+(if (< 19 18) (print 0) (if (< 18 19) (if (< 17 16) (print 0) (if (< 16 17) (if (< 15 14) (print 0) (if (< 14 15) (if (< 13 12) (print 0) (if (< 12 13) (if (< 11 10) (print 0) (if (< 10 11) (if (< 9 8) (print 0) (if (< 8 9) (if (< 7 6) (print 0) (if (< 6 7) (if (< 5 4) (print 0) (if (< 4 5) (if (< 3 2) (print 0) (if (< 2 3) (if (< 1 0) (print 0) (if (< 0 1) (f) (print 0))) (print 0))) (print 0))) (print 0))) (print 0))) (print 0))) (print 0))) (print 0))) (print 0))) (print 0)))
