@@ -1,0 +1,8 @@
+(define (func1 x)
+  (if (is-num x) (pair 0 (func2 x))
+    (not (func1 x))))
+(define (func2 y)
+  (if (= 3 (add1 x)) (- x 1)
+    (not (func1 x))))
+(let ((x (read-num)) ((y (read-num))) ((z (read-num))))
+  (pair (func1 x) (pair (func1 y) (func2 z))))

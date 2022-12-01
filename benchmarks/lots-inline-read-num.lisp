@@ -1,0 +1,8 @@
+(define (f a) (left (pair a 1)))
+(define (g b) (right (pair b (f (read-num)))))
+(define (h c) (right (pair c (g (read-num)))))
+(define (k d) (right (pair d (h (read-num)))))
+(define (l e) (right (pair e (k (read-num)))))
+(define (m f) (right (pair f (l (read-num)))))
+(define (n g) (right (pair g (m (read-num)))))
+(print (n 10))

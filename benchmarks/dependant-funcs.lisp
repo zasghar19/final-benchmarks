@@ -1,0 +1,5 @@
+(define (add n m)
+   (+ n (add2 m)))
+(define (add2 a)
+    (+ 2 a))
+(print (add (read-num) (read-num)))
