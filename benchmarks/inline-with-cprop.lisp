@@ -1,0 +1,1 @@
+(define (inc1 x) (add1 x)) (define (inc2 x) (add1 x)) (define (dec1 x) (sub1 x)) (define (dec2 x) (sub1 x)) (+ (inc1 1) (+ (inc2 1) (+ (dec1 1) (dec2 1))))
