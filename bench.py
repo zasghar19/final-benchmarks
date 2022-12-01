@@ -23,6 +23,7 @@ def bench(passes: "list[str]"):
 
     # First, compile all benchmarks
     for benchmark in benchmarks:
+        print(f'compiling: {benchmark}')
         compile_cmd = "dune exec --root . bin/compile.exe -- {} {} {}".format(
             passes,
             os.path.join(os.path.relpath("benchmarks", start=".."), benchmark),
@@ -39,6 +40,7 @@ def bench(passes: "list[str]"):
     # Then, run each benchmark N times and record the results
     results = {}
     for benchmark in benchmarks:
+        print(f'running: {benchmark}')
         runs = []
         run_cmd = os.path.join("compiled_benchmarks", "{}.exe".format(benchmark))
         stdin = ""
