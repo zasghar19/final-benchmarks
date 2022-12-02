@@ -11,4 +11,3 @@
     (iszero (isnum (iszero (isnum (iszero (isnum (iszero (isnum 210000))))))))
     (iszero (isnum (iszero (isnum (iszero (isnum (iszero (isnum -13))))))))
 )
-unecessary
